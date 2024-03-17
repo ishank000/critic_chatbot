@@ -1,0 +1,42 @@
+body {
+    /* Set background image for the entire page */
+    background-image: url("vivid-blurred-colorful-background.jpg");
+    /* You can adjust background properties */
+    background-size: 100%; 
+    background-position: unset; /* Center the image */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 55px;
+    color:rgb(43, 43, 43);
+    font-family: Verdana, Geneva, sans-serif;
+}
+form {
+    width: 450px;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.322); /* Red background color for the rectangle */
+    border-radius: 5%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 60px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0); /* Horizontal offset, vertical offset, blur radius, and color of the shadow */
+    margin-left: 55px;
+}
+ 
+.mainn {
+    padding-top: 150px;
+    padding-left: 50px;
+
+}
+input{
+    width: auto;
+    border:#000000;
+    border-radius: 40px;
+    border: 2px solid black;
+    padding: 2%;
+    font-size: 18px;
+    color: black;
+}
+

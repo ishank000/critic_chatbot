@@ -1,0 +1,29 @@
+body {
+    /* Set background image for the entire page */
+    background-image: url("vivid-blurred-colorful-background.jpg");
+    /* You can adjust background properties */
+    background-size: 100%; 
+    background-position: unset; /* Center the image */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 55px;
+    color:rgb(43, 43, 43);
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 2%;
+       
+}
+.output-box {
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 1%;
+    font-size: x-large;
+    margin: 5%;
+    width: auto;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.322);
+    box-shadow: 5px 5px 10px rgb(0, 0, 0); /* Horizontal offset, vertical offset, blur radius, and color of the shadow */
+
+}
